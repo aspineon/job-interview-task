@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "gender": "female",
+      "name": {
+        "title": "ms",
+        "first": "enora",
+        "last": "fournier"
+      },
+      "location": {
+        "street": "5015 rue paul-duvivier",
+        "city": "montpellier",
+        "state": "creuse",
+        "postcode": 33534
+      },
+      "email": "enora.fournier@example.com",
+      "login": {
+        "username": "brownmeercat742",
+        "password": "373737",
+        "salt": "6yUjfdUf",
+        "md5": "9b4c318296ee78eb3451024f6be59e9d",
+        "sha1": "f7b82d9aa571a2921eac536229e60289c5989c28",
+        "sha256": "1de6c4c32fb86e784a23019f8f2eb0fe8a39950f7aca44e5a95e64711d5ccb9d"
+      },
+      "registered": 1282819133,
+      "dob": 1050679090,
+      "phone": "05-20-20-89-78",
+      "cell": "06-62-48-50-68",
+      "id": {
+        "name": "INSEE",
+        "value": "203352357916 90"
+      },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/10.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/10.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/10.jpg"
+      },
+      "nat": "FR"
+    }
+  ],
+  "info": {
+    "seed": "2dc6f1ad5bd3638d",
+    "results": 1,
+    "page": 1,
+    "version": "1.0"
+  }
+}
