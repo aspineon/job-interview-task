@@ -18,7 +18,7 @@ import static org.mockito.MockitoAnnotations.initMocks;
 
 public class HttpLoaderTest {
 
-    private String content = "Test content";
+    private String testData = "Test content";
 
     @Mock
     private HttpURLConnection urlConnection;
@@ -26,7 +26,7 @@ public class HttpLoaderTest {
     @Before
     public void setUp() throws IOException {
         initMocks(this);
-        InputStream inputStream = new ByteArrayInputStream(content.getBytes());
+        InputStream inputStream = new ByteArrayInputStream(testData.getBytes());
         when(urlConnection.getInputStream()).thenReturn(inputStream);
     }
 
@@ -34,7 +34,7 @@ public class HttpLoaderTest {
     public void shouldLoadContentFromServer() throws IOException {
         URL url = new URL(null, "http://localhost", getURLStreamHandlerStub());
         HttpLoader loader = new HttpLoader(url);
-        assertEquals(content, loader.loadData());
+        assertEquals(testData, loader.loadData());
     }
 
     // stubbing URLStreamHandler since we can not mock final URL class
